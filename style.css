@@ -127,7 +127,7 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--cyan); outl
 /* cart drawer */
 .drawer { position: fixed; inset: 0; z-index: 30; display: flex; justify-content: flex-end; background: rgba(0, 0, 0, .55); }
 .drawer-box { width: min(430px, 100%); height: 100%; background: #0c1729; border-left: 1px solid var(--line);
-  display: flex; flex-direction: column; animation: slidein .25s ease-out; }
+  display: flex; flex-direction: column; }
 @keyframes slidein { from { transform: translateX(60px); } }
 .drawer-head { display: flex; justify-content: space-between; align-items: center; padding: 14px 16px; border-bottom: 1px solid var(--line); }
 .drawer-items { flex: 1; overflow-y: auto; padding: 6px 16px; }
