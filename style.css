@@ -55,7 +55,7 @@ h2 { font-size: 22px; margin: 0 0 10px; }
   animation: drive 3.2s ease-out; }
 .hero-art .c { position: absolute; height: 46%; width: auto; max-width: 36%; object-fit: contain; left: 4%; bottom: 0;
   animation: drive 3.2s ease-out .15s backwards; }
-@keyframes drive { from { transform: translateX(-120vw); } to { transform: none; } }
+@keyframes drive { from { transform: translateX(-70px); } to { transform: none; } } /* starts on screen, so it is visible even if animations are paused */
 @media (max-width: 820px) { .hero { grid-template-columns: 1fr; } .hero-art { height: 170px; } }
 .team { display: grid; gap: 4px; margin-top: 10px; }
 .team b { font-size: 17px; } .team code { color: var(--cyan); margin-left: 8px; }
