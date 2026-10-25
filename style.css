@@ -51,8 +51,10 @@ h2 { font-size: 22px; margin: 0 0 10px; }
 /* home */
 .hero { display: grid; grid-template-columns: 1.2fr .8fr; gap: 20px; align-items: center; margin-bottom: 22px; }
 .hero-art { position: relative; height: 230px; }
-.hero-art .t { position: absolute; width: 74%; right: 0; top: 10px; animation: drive 3.2s ease-out; }
-.hero-art .c { position: absolute; width: 38%; left: 4%; bottom: 0; animation: drive 3.2s ease-out .15s backwards; }
+.hero-art .t { position: absolute; height: 62%; width: auto; max-width: 74%; object-fit: contain; right: 0; top: 6%;
+  animation: drive 3.2s ease-out; }
+.hero-art .c { position: absolute; height: 46%; width: auto; max-width: 36%; object-fit: contain; left: 4%; bottom: 0;
+  animation: drive 3.2s ease-out .15s backwards; }
 @keyframes drive { from { transform: translateX(-120vw); } to { transform: none; } }
 @media (max-width: 820px) { .hero { grid-template-columns: 1fr; } .hero-art { height: 170px; } }
 .team { display: grid; gap: 4px; margin-top: 10px; }
