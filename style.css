@@ -144,6 +144,21 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--cyan); outl
 .empty { text-align: center; color: var(--muted); padding: 40px 0; }
 .empty img { width: 70px; opacity: .35; }
 
+/* phones */
+@media (max-width: 520px) {
+  .topbar { padding: 8px 10px; gap: 6px; }
+  .brand img { width: 32px; height: 32px; }
+  .brand small { display: none; }
+  nav { gap: 2px; }
+  nav a { padding: 7px 9px; white-space: nowrap; font-size: 13px; }
+  .pcard .add { grid-template-columns: 1fr; }
+  .pcard .name { font-size: 14px; min-height: 36px; }
+  .price { font-size: 16px; }
+  .price s { display: block; margin-left: 0; }
+  .ticket { font-size: 9.6px; padding: 10px 8px; }
+  .modal-box { padding: 14px 12px; }
+}
+
 /* floating cart bar on phones */
 .cartbar { position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 15; display: none; }
 @media (max-width: 820px) { .cartbar { display: block; } }
