@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HD Suite - HD Rail &amp; HD Cart</title>
+<meta name="description" content="HD Suite: Railway Reservation Form and Online Shopping Cart Simulation - Java Swing mini project, CMR University.">
+<link rel="icon" href="img/train.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar" id="topbar">
+  <a class="brand" href="#/"><img src="img/cmr-logo.jpg" alt="CMR University logo"><span><b>HD Suite</b><small>CMR University</small></span></a>
+  <nav>
+    <a href="#/rail" data-nav="rail">HD Rail</a>
+    <a href="#/cart" data-nav="cart">HD Cart</a>
+    <button class="cart-btn hidden" id="cartBtn" aria-label="Open cart"><img src="img/cart.png" alt=""><span id="cartCount">0</span></button>
+  </nav>
+</header>
+
+<main id="app"></main>
+
+<div class="toast" id="toast" role="status"></div>
+<div class="modal hidden" id="modal" role="dialog" aria-modal="true"><div class="modal-box" id="modalBox"></div></div>
+
+<footer class="foot">HD Suite &middot; Hemashree T N (25BBTCS093) &amp; Divya Reddy (25BBTCS067) &middot; B Tech CSE, CMR University &middot; Demo data only</footer>
+<script src="app.js"></script>
+</body>
+</html>
