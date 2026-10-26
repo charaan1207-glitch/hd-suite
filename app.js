@@ -593,7 +593,7 @@ function renderHome() {
       <p class="tag">JAVA SWING / AWT &middot; MINI PROJECT &middot; CMR UNIVERSITY</p>
       <h1>HD Suite</h1>
       <p class="sub">Railway Reservation Form <span style="color:var(--cyan)">+</span> Online Shopping Cart Simulation &mdash; try both apps right here, on your phone or computer.</p>
-      <div class="card team"><span class="tag">PRESENTED BY</span><div><b>Hemashree T N</b><code>25BBTCS093</code></div><div><b>Divya Reddy</b><code>25BBTCS067</code></div><span class="note">B Tech CSE &middot; 2nd Year &middot; CMR University</span></div>
+      <div class="card team"><span class="tag">PRESENTED BY</span><div><b>Hemashree TN</b><code>25BBTCS093</code></div><div><b>Divya Reddy GN</b><code>25BBTCS067</code></div><span class="note">B Tech CSE &middot; 2nd Year &middot; CMR University</span></div>
     </div>
     <div class="hero-art"><img class="t" src="img/train.png" alt="Train"><img class="c" src="img/cart.png" alt="Cart"></div>
   </section>
